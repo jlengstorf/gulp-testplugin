@@ -1,0 +1,37 @@
+{
+  "name": "gulp-testplugin",
+  "version": "0.1.0",
+  "description": "Gulp extension to add note to the top of file(s) in the pipeline.",
+  "main": "./index.js",
+  "proxy": null,
+  "https-proxy": null,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jlengstorf/gulp-testplugin.git"
+  },
+  "keywords": [
+    "header",
+    "gulpplugin",
+    "eventstream"
+  ],
+  "author": {
+      "name": "Jason Lengstorf",
+      "email": "jason.lengstorf@copterlabs.com",
+      "url": "http://github.com/jlengstorf"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlengstorf/gulp-testplugin/issues"
+  },
+  "dependencies": {
+    "event-stream": "*",
+    "gulp-util": "*",
+    "lodash.assign": "*"
+  }
+}
